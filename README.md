@@ -29,6 +29,7 @@ Previously a core contributor at [BNB Chain](https://github.com/bnb-chain) (2021
 ## 🚀 My Projects
 
 <a href="https://github.com/j75689/anyship"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=j75689&repo=anyship&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
+<a href="https://github.com/j75689/cueflow"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=j75689&repo=cueflow&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
 <a href="https://github.com/j75689/Tmaster"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=j75689&repo=Tmaster&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
 <a href="https://github.com/j75689/goscraper"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=j75689&repo=goscraper&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
 
