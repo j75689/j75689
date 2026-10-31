@@ -1,0 +1,59 @@
+name: Generate profile assets
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  # Pinned upstream commit of anuraghazra/github-readme-stats used to render cards.
+  GRS_REF: 54a7985aeefda00d5eadb55b80c17c7f976c37d2
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Start from the current output branch so a card that fails to render
+      # keeps its last good version instead of disappearing.
+      - name: Restore previous output
+        run: |
+          mkdir -p dist
+          if git fetch --depth 1 origin output; then
+            git --work-tree=dist checkout FETCH_HEAD -- .
+          fi
+
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch github-readme-stats
+        run: |
+          git init -q grs
+          git -C grs fetch -q --depth 1 https://github.com/anuraghazra/github-readme-stats.git "$GRS_REF"
+          git -C grs checkout -q FETCH_HEAD
+          npm ci --omit=dev --ignore-scripts --prefix grs
+
+      - name: Render stats cards
+        env:
+          # Optional repo secret STATS_TOKEN (classic PAT, no scopes) gives
+          # more accurate stats; falls back to the workflow token.
+          PAT_1: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/render-cards.mjs grs dist/cards
+
+      - uses: crazy-max/ghaction-github-pages@v3
+        if: ${{ !cancelled() }}
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

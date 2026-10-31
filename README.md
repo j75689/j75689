@@ -20,26 +20,26 @@
 
 Previously a core contributor at [BNB Chain](https://github.com/bnb-chain) (2021–2025):
 
-<a href="https://github.com/bnb-chain/bsc"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=bnb-chain&repo=bsc&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
-<a href="https://github.com/bnb-chain/reth-bsc-trail"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=bnb-chain&repo=reth-bsc-trail&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
-<a href="https://github.com/bnb-chain/greenfield"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=bnb-chain&repo=greenfield&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
+<a href="https://github.com/bnb-chain/bsc"><img width="32%" src="https://raw.githubusercontent.com/j75689/j75689/output/cards/pin-bnb-chain-bsc.svg" /></a>
+<a href="https://github.com/bnb-chain/reth-bsc-trail"><img width="32%" src="https://raw.githubusercontent.com/j75689/j75689/output/cards/pin-bnb-chain-reth-bsc-trail.svg" /></a>
+<a href="https://github.com/bnb-chain/greenfield"><img width="32%" src="https://raw.githubusercontent.com/j75689/j75689/output/cards/pin-bnb-chain-greenfield.svg" /></a>
 
 <a href="https://github.com/bnb-chain/op-geth"><img src="https://img.shields.io/badge/bnb--chain-op--geth-F0B90B?style=flat-square&logo=github&logoColor=black&labelColor=1f2328" /></a> <a href="https://github.com/bnb-chain/zkbnb-smt"><img src="https://img.shields.io/badge/bnb--chain-zkbnb--smt-F0B90B?style=flat-square&logo=github&logoColor=black&labelColor=1f2328" /></a> <a href="https://github.com/bnb-chain/node"><img src="https://img.shields.io/badge/bnb--chain-node-F0B90B?style=flat-square&logo=github&logoColor=black&labelColor=1f2328" /></a> <a href="https://github.com/bnb-chain/node-deploy"><img src="https://img.shields.io/badge/bnb--chain-node--deploy-F0B90B?style=flat-square&logo=github&logoColor=black&labelColor=1f2328" /></a> <a href="https://github.com/bnb-chain/node-dump"><img src="https://img.shields.io/badge/bnb--chain-node--dump-F0B90B?style=flat-square&logo=github&logoColor=black&labelColor=1f2328" /></a>
 
 ## 🚀 My Projects
 
-<a href="https://github.com/j75689/anyship"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=j75689&repo=anyship&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
-<a href="https://github.com/j75689/cueflow"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=j75689&repo=cueflow&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
-<a href="https://github.com/j75689/Tmaster"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=j75689&repo=Tmaster&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
-<a href="https://github.com/j75689/goscraper"><img width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=j75689&repo=goscraper&theme=tokyonight&hide_border=true&description_lines_count=3" /></a>
+<a href="https://github.com/j75689/anyship"><img width="32%" src="https://raw.githubusercontent.com/j75689/j75689/output/cards/pin-j75689-anyship.svg" /></a>
+<a href="https://github.com/j75689/cueflow"><img width="32%" src="https://raw.githubusercontent.com/j75689/j75689/output/cards/pin-j75689-cueflow.svg" /></a>
+<a href="https://github.com/j75689/Tmaster"><img width="32%" src="https://raw.githubusercontent.com/j75689/j75689/output/cards/pin-j75689-Tmaster.svg" /></a>
+<a href="https://github.com/j75689/goscraper"><img width="32%" src="https://raw.githubusercontent.com/j75689/j75689/output/cards/pin-j75689-goscraper.svg" /></a>
 
 <a href="https://glosscue.app"><img src="https://img.shields.io/badge/GlossCue-AI_dual_subtitles_Chrome_extension-4493f8?style=flat-square&logo=googlechrome&logoColor=white&labelColor=1f2328" /></a>
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=j75689&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=j75689&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://raw.githubusercontent.com/j75689/j75689/output/cards/stats.svg" />
+  <img height="165" src="https://raw.githubusercontent.com/j75689/j75689/output/cards/top-langs.svg" />
 </p>
 
 <img src="https://raw.githubusercontent.com/j75689/j75689/output/github-contribution-grid-snake-dark.svg" alt="snake" />
