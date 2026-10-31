@@ -62,11 +62,15 @@ const render = async (handler, query) => {
 fs.mkdirSync(outDir, { recursive: true });
 let failed = 0;
 for (const { file, handler, query } of cards) {
-  const svg = await render(handler, query);
+  const svg = (await render(handler, query)).trim();
   // Error cards from the upstream renderer contain this marker; keep the
   // previous good file instead of publishing an error image.
   if (!svg.startsWith("<svg") || svg.includes("Something went wrong")) {
-    console.error(`✗ ${file}: render failed`);
+    const reason = [...svg.matchAll(/<tspan[^>]*>([^<]+)<\/tspan>|<text[^>]*>([^<]+)<\/text>/g)]
+      .map((m) => (m[1] ?? m[2]).trim())
+      .filter(Boolean)
+      .join(" | ");
+    console.error(`✗ ${file}: render failed: ${reason || svg.slice(0, 200)}`);
     failed++;
     continue;
   }
